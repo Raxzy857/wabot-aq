@@ -33,19 +33,19 @@ const defaultMenu = {
 ╭─「 %me 」
 │ Hai, %name!
 │
-│ Tersisa *%limit Limit*
+│ left *%limit Limit*
 │ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
+│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi for levelup]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ date: *%week %weton, %date*
+│ Date Islam: *%dateIslamic*
+│ Time: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
-│ %github
+│ %github raxzy857.github.com
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
